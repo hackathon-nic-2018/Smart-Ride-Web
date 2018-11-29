@@ -2,7 +2,108 @@
 @import 'variables';
 
 body{
+    background: $blanco;
     color: $bluetext;
     font-size: 1em;
 }
 
+
+/*Estilos del menu*/
+.bg-light {
+    background-color: $blanco !important;
+}
+.navbar-collapse{
+    justify-content: flex-end !important;
+}
+
+.navbar-nav{
+    justify-content: space-around;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $bluetext;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: $bluetext;
+}
+
+.active>a{
+    color: $red !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.9rem;
+    color: $bluetext;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px;
+    border-radius: 0.25rem;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    top: 1.4rem;
+    color: $red !important;
+}
+.navbar-toggler-icon {
+    color: $red !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar.navbar-light .navbar-toggler-icon {
+    background-image: none!important;
+    cursor: pointer;
+}
+
+/*Estilos del footer*/
+.main-footer{
+    background: $bluetext;
+    color: $blanco;
+    .txt-Bold{
+        font-weight: 600;
+    }
+}
+.btn-footer{
+    background: $blanco;
+    color: $bluetext;
+}
+.footer-form .md-form input[type=date], .md-form input[type=datetime-local], .md-form input[type=email], .md-form input[type=number], .md-form input[type=password], .md-form input[type=search-md], .md-form input[type=search], .md-form input[type=tel], .md-form input[type=text], .md-form input[type=time], .md-form input[type=url], .md-form textarea.md-textarea {
+    border-bottom: 1px solid $blanco;
+    background-color: transparent;
+    color: $blanco;
+}
+.footer-form .md-form label {
+    color: $blanco;
+    font-size: 1em;
+}
+
+.footer-form  .md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly])
+{
+    color: #fff;
+}
+@media screen and (min-width: 1200px){
+    .navbar-nav{
+        width: 500px;  
+    } 
+}
+
+@media screen and (max-width: 580px){
+    .row {
+        margin-right: 0px!important; 
+       margin-left: 0px!important; 
+    }
+}
