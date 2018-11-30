@@ -199,3 +199,23 @@ input[type="file"] {
   margin-top: 2rem;
 }
 
+.active {
+  color: #d50000 !important;
+}
+
+@media screen and (max-width: 580px) {
+  .contenedor-iphone {
+    background-image: url(/images/iphonemobil.png?ae8e5edc8e9eef6ddb17ba4aa22b379c);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 290px;
+    margin-top: 1.5rem;
+    background-color: #f8f5f5;
+  }
+
+  .section-desc {
+    margin-top: 15rem;
+  }
+}
+

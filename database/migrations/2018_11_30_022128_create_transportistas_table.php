@@ -20,7 +20,10 @@ class CreateTransportistasTable extends Migration
             $table->String('cedula', 16);
             $table->String('direccion', 45);
             $table->String('telefono',8);
-            $table->timestamps();
+            $table->integer('idUsers')->unsigned();
+            $table->timestamps();           
+
+            $table->foreign('idUsers')->references('id')->on('users');
         });
     }
 

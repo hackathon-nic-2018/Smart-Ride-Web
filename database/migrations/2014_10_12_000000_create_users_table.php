@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('foto', 90);
+            $table->string('foto', 90)->default('default.jpg');
             $table->enum('tipo',['Administrador','Transportistas','Padre'])->default('Padre');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

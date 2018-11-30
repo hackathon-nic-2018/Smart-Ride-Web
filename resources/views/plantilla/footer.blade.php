@@ -2,16 +2,18 @@
 
 	<div class="row justify-content-md-center">
 		<div class="col-md-6 col-12 footer-form">
-			<div class="md-form ">
-				<input type="text" id="txt-email" class="form-control validate" name="email" required>
-				<label for="txt-email" data-error="wrong" data-success="right">Email</label>
-			</div>
+			<form class="form-footer">
+				<div class="md-form ">
+					<input type="text" id="txt-email" class="form-control validate" name="email1" required>
+					<label for="txt-email" data-error="wrong" data-success="right">Email</label>
+				</div>
 
-			<div class="form-group">
-				<textarea class="form-control" name="mensaje" placeholder="Cuéntanos en que te podemos ayudar?" required></textarea>
-			</div>
+				<div class="form-group">
+					<textarea class="form-control" name="mensaje1" placeholder="Cuéntanos en que te podemos ayudar?" required></textarea>
+				</div>
 
-			<button class="btn mx-auto btn-footer" type="submit">Enviar</button>
+				<button class="btn mx-auto btn-footer" type="submit">Enviar</button>
+			</form>
 		</div>
 	</div>
 

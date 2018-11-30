@@ -10,4 +10,9 @@ class Transportista extends Model
     protected $fillable = [
         'nombre', 'apellido','cedula', 'direccion','telefono',
     ];
+
+    public function users()
+    {
+    	return $this->hasMany('App\User.php');
+    }
 }

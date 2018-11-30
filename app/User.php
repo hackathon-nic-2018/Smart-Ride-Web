@@ -19,6 +19,16 @@ class User extends Authenticatable
         'name', 'email', 'password','foto','tipo'
     ];
 
+    public function Transportista()
+    {
+    	return $this->belongsTo('App\Transportista.php');
+    }
+
+    public function Padre()
+    {
+    	return $this->belongsTo('App\Padre.php');
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *

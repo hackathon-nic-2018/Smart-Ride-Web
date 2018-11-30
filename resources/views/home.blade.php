@@ -11,7 +11,7 @@
         <div class="col-md-7 align-self-center ">
                 
         </div>
-        <div class="col-md-5 align-self-center">
+        <div class="col-md-5 align-self-center section-desc">
             <img src="img/logo2.png" alt="Smart Ride" class="logo-home">
 
             <h3 class="title">¿Que es Smart Ride?</h3>

@@ -16,11 +16,12 @@ Route::get('/', function () {
 });
 
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Rutas para el perfil de padres de familia
 Route::Resource('/registroPadres', 'PadresController');
-Route::get('/perfil', 'DAcademicosController@perfil');
+Route::get('/perfil', 'PadresController@perfil');
+

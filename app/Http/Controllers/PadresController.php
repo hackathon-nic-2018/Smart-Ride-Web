@@ -21,20 +21,17 @@ class PadresController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function __construct(){
-        $this->middleware('auth', ['only' => 'perfil']);
-        $this->middleware('aspirante', ['only' => 'perfil']);  
-    }
+
 
     public function perfil()
     {
         $padres= DB::table('padres')
-        ->where('padres.idusuario', Auth::User()->id)
+        ->where('padres.idusers', Auth::User()->id)
         ->select('padres.*')
         ->get();
 
-        dd($padres);
-        /* return view('SGEFAREM.Aspirante.perfil')->with('asp',$asp); */
+        //dd($padres);
+        return view('Padres.perfil')->with('padre',$padres); 
     }
     public function index()
     {
@@ -64,8 +61,8 @@ class PadresController extends Controller
         if($request->hasFile('imagen'))
         {
 
-           /* $hola=$request->all();
-            dd($hola);  */
+           /*  $hola=$request->all();
+            dd($hola);   */
 
             $usuarios = new User();
             $image= $request->file('imagen');
@@ -80,11 +77,11 @@ class PadresController extends Controller
             $usuarios->save();
 
             $padre = new Padre();
-            $padre->nombres=$request->name;
-            $padre->apellidos=$request->apellidos;
+            $padre->nombre=$request->name;
+            $padre->apellido=$request->apellidos;
             $padre->direccion=$request->dir;
             $padre->telefono=$request->telefono;
-            $padre->idUsuario= $usuarios->id;
+            $padre->idUsers= $usuarios->id;
             $padre->save();
      
             return redirect('/login');
