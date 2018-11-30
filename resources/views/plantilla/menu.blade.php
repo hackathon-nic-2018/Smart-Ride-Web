@@ -22,7 +22,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="/registroPadres">Padre</a>
-                            <a class="dropdown-item" href="#">Transportista</a>
+                            <a class="dropdown-item" href="/registroTrans">Transportista</a>
                         </div>
                     </li>
                     <li class="nav-item">

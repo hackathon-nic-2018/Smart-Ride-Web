@@ -40,6 +40,8 @@
 				<span class="pull-right icon-circle-up"></span>
 			</a>
 		</p>
-      	&copy; 2018 Copyright <span class="txt-Bold">Smart Ride</span> | Todos los derechos reservados
+		  &copy; 2018 Copyright <span class="txt-Bold">Smart Ride</span> | Todos los derechos reservados
+		  
+		  <br> <br>
 	</center>
 </footer>

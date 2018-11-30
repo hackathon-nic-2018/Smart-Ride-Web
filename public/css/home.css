@@ -199,6 +199,20 @@ input[type="file"] {
   margin-top: 2rem;
 }
 
+.img-ilustracion-trans {
+  background-image: url("/images/Recurso bus.png?2e7f00a538c0224b8dabd20e3c16eaf4");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  justify-items: center;
+  width: 400px;
+  height: 700px;
+  margin-top: 0 auto;
+  background-color: #f8f5f5;
+  display: block;
+  text-align: center;
+  margin-top: 10rem;
+}
+
 .active {
   color: #d50000 !important;
 }

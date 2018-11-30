@@ -25,3 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::Resource('/registroPadres', 'PadresController');
 Route::get('/perfil', 'PadresController@perfil');
 
+
+Route::Resource('/registroTrans', 'TransController');
+Route::get('/perfilTrans', 'TransController@perfil');
+
