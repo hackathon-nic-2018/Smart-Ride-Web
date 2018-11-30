@@ -11,15 +11,27 @@
 				<textarea class="form-control" name="mensaje" placeholder="Cuéntanos en que te podemos ayudar?" required></textarea>
 			</div>
 
-			<button class="btn btn-block my-4 btn-footer" type="submit">Enviar</button>
+			<button class="btn mx-auto btn-footer" type="submit">Enviar</button>
 		</div>
 	</div>
-	<div class="contactanos">
-		
+
+	<div class="row">
+		<div class="col-md-6 conten-social">
+			<a href=""  class="">
+				<div class="btn-social btn-facebook">	
+				</div>
+			</a>
+			<a href=""  class="">
+				<div class="btn-social btn-twitter">	
+				</div>
+			</a>
+			<a href=""  class="">
+				<div class="btn-social btn-instagram">	
+				</div>
+			</a>	
+		</div>
 	</div>
 		
-
-
     <center>
 		<p>
 			<a href="#">

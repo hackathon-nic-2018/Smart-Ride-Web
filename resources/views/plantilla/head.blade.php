@@ -12,3 +12,4 @@
 <link rel="stylesheet" href="css/app.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/plantilla.css">
+<link rel="stylesheet" href="css/home.css">
