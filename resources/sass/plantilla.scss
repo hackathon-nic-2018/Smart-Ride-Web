@@ -5,6 +5,7 @@ body{
     background: $blanco;
     color: $bluetext;
     font-size: 1em;
+    background-color: #f8f5f5;
 }
 
 .row {
@@ -86,10 +87,12 @@ body{
 }
 .btn-footer{
     background: $blanco;
-    color: $bluetext;
+    color: $blanco;
     font-weight: 500;
     text-align: center;
     width: 30%;
+    background: transparent;
+    border: 2px solid $blanco;
 }
 .footer-form{
     display: flex;
@@ -126,7 +129,7 @@ body{
     border-bottom: 1px solid $blanco;
 }
 textarea {
-    height: 140px!important;
+    height: 120px!important;
 }
 
 //iconos sociales
@@ -142,42 +145,42 @@ textarea {
     margin: 1rem 2rem;
 }
 .btn-facebook{
-    background-image: url("../../public/img/facebookldpi.png");
+    background-image: url("../../public/img/iface.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;
     height: 35px;
 }
 .btn-facebook:hover{
-    background-image: url("../../public/img/Recurso 8ldpi.png");
+    background-image: url("../../public/img/icoface.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;
     height: 35px;
 }
 .btn-twitter{
-    background-image: url("../../public/img/twitterldpi.png");
+    background-image: url("../../public/img/icoitwtter.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;
     height: 35px;
 }
 .btn-twitter:hover{
-    background-image: url("../../public/img/Recurso 9ldpi.png");
+    background-image: url("../../public/img/icotwitter.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;
     height: 35px;
 }
 .btn-instagram{
-    background-image: url("../../public/img/instagramldpi.png");
+    background-image: url("../../public/img/iciinstagram.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;
     height: 35px;
 }
 .btn-instagram:hover{
-    background-image: url("../../public/img/Recurso 7ldpi.png");
+    background-image: url("../../public/img/icoinstagram.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 35px;

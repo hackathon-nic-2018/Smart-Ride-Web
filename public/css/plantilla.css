@@ -2,6 +2,7 @@ body {
   background: #fff;
   color: #0b5b87;
   font-size: 1em;
+  background-color: #f8f5f5;
 }
 
 .row {
@@ -102,10 +103,12 @@ body {
 
 .btn-footer {
   background: #fff;
-  color: #0b5b87;
+  color: #fff;
   font-weight: 500;
   text-align: center;
   width: 30%;
+  background: transparent;
+  border: 2px solid #fff;
 }
 
 .footer-form {
@@ -196,7 +199,7 @@ body {
 }
 
 textarea {
-  height: 140px !important;
+  height: 120px !important;
 }
 
 .conten-social {
@@ -218,7 +221,7 @@ textarea {
 }
 
 .btn-facebook {
-  background-image: url(/images/facebookldpi.png?8a4b417940e4209e9524b460f07d975b);
+  background-image: url(/images/iface.png?9c4816c9c46977bc016d1bb8914db5c4);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
@@ -226,7 +229,7 @@ textarea {
 }
 
 .btn-facebook:hover {
-  background-image: url("/images/Recurso 8ldpi.png?a37e6d1fa7ea14b807d55fd848fc032f");
+  background-image: url(/images/icoface.png?9e1b3485c738847a8295711274176f1b);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
@@ -234,7 +237,7 @@ textarea {
 }
 
 .btn-twitter {
-  background-image: url(/images/twitterldpi.png?a0726244bbe6035f2f3065e39ce80304);
+  background-image: url(/images/icoitwtter.png?7df0e518a610fcf08b59c587e936d896);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
@@ -242,7 +245,7 @@ textarea {
 }
 
 .btn-twitter:hover {
-  background-image: url("/images/Recurso 9ldpi.png?e2059530419f5e918cf0061bdead9f2a");
+  background-image: url(/images/icotwitter.png?dd02cca27a2faebdb990ac1e696218df);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
@@ -250,7 +253,7 @@ textarea {
 }
 
 .btn-instagram {
-  background-image: url(/images/instagramldpi.png?ae191f2c159677cd1fa84ac565f8b532);
+  background-image: url(/images/iciinstagram.png?97e41dcaab5859626e5af27a2979dd33);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
@@ -258,7 +261,7 @@ textarea {
 }
 
 .btn-instagram:hover {
-  background-image: url("/images/Recurso 7ldpi.png?95db56e3f99e1c06906b0d3d447e3de4");
+  background-image: url(/images/icoinstagram.png?55c075b765a70fcfd5285d3b524768aa);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 35px;
