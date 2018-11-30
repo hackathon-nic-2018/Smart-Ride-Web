@@ -1,0 +1,119 @@
+.menu-blue {
+  background: #0b5b87 !important;
+  color: #fff;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+  -webkit-transition: .35s;
+  transition: .35s;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: #d50000 !important;
+}
+
+.navbar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header-user {
+  background: #0b5b87;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+}
+
+.user-image1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5rem;
+  left: 6rem;
+}
+
+.txt-users {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  top: -4rem;
+  left: 11rem;
+  color: #fff;
+}
+
+.card {
+  background-color: #0b5b87;
+  width: 50%;
+  height: 360px;
+  margin: 4rem auto;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.img-ico {
+  width: 70px;
+  position: absolute;
+  top: 6rem;
+  left: 8rem;
+}
+
+.content-card1 {
+  float: right;
+}
+
+.content-card2 {
+  float: left;
+}
+
+.card-1 {
+  background-image: url("/images/Recurso 39ldpi.png?7bc7e8ad3fb7c777aa9da38ab26729b9");
+  background-repeat: no-repeat;
+  background-size: 123%;
+  float: right;
+  height: 360px;
+  margin-top: -7rem;
+  margin-left: -4.4rem;
+}
+
+.card-2 {
+  background-image: url(/images/transportista_1ldpi.png?cb15864b401f7a91a1688402974a1c8d);
+  background-repeat: no-repeat;
+  background-size: 119%;
+  float: right;
+  height: 260px;
+  margin-top: -1rem;
+  margin-left: -3.2rem;
+}
+
+.title-blanco {
+  color: #fff;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.btn-center {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.btn-register {
+  background: #fff;
+  border: 2px solid #0b5b87;
+  color: #d50000;
+  font-weight: 600;
+  font-size: 1.4em;
+  padding: .5rem 2rem;
+}
+
